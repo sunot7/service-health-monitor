@@ -1,0 +1,6 @@
+{
+  "services": [
+    {"name": "Example website", "url": "https://example.com", "timeout": 5},
+    {"name": "Example API", "url": "https://api.example.invalid/health", "timeout": 2}
+  ]
+}
