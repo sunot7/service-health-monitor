@@ -18,5 +18,7 @@ silently losing observations. Earlier committed observations remain available.
 temporary databases, deterministic clocks, injected transports and a mocked
 requests Session. There is no background process, scheduler or network discovery.
 
-Stages: requirements/design captured in README; implementation and developer
-tests in source; independent verification and human review tracked in REVIEW.md.
+Verification: the developer CI suite runs on Python 3.11 and 3.14. Independent
+checks and human acceptance were recorded separately in the approved local
+environment. See README.md for established results and limitations; historical
+review and acceptance records are retained locally and are not published here.
